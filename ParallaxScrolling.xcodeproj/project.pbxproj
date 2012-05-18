@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E13765751566E7B300670B54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13765741566E7B300670B54 /* UIKit.framework */; };
+		E13765771566E7B300670B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13765761566E7B300670B54 /* Foundation.framework */; };
+		E13765791566E7B300670B54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13765781566E7B300670B54 /* CoreGraphics.framework */; };
+		E137657F1566E7B300670B54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E137657D1566E7B300670B54 /* InfoPlist.strings */; };
+		E13765811566E7B300670B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E13765801566E7B300670B54 /* main.m */; };
+		E13765851566E7B300670B54 /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E13765841566E7B300670B54 /* RBAppDelegate.m */; };
+		E13765881566E7B300670B54 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13765871566E7B300670B54 /* RBViewController.m */; };
+		E137658B1566E7B300670B54 /* RBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E13765891566E7B300670B54 /* RBViewController_iPhone.xib */; };
+		E137658E1566E7B300670B54 /* RBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E137658C1566E7B300670B54 /* RBViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E13765701566E7B300670B54 /* ParallaxScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13765741566E7B300670B54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E13765761566E7B300670B54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E13765781566E7B300670B54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E137657C1566E7B300670B54 /* ParallaxScrolling-Info.plist */ = {isa = PBXFileReference; path = "ParallaxScrolling-Info.plist"; sourceTree = "<group>"; };
+		E137657E1566E7B300670B54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E13765801566E7B300670B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E13765821566E7B300670B54 /* ParallaxScrolling-Prefix.pch */ = {isa = PBXFileReference; path = "ParallaxScrolling-Prefix.pch"; sourceTree = "<group>"; };
+		E13765831566E7B300670B54 /* RBAppDelegate.h */ = {isa = PBXFileReference; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		E13765841566E7B300670B54 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		E13765861566E7B300670B54 /* RBViewController.h */ = {isa = PBXFileReference; path = RBViewController.h; sourceTree = "<group>"; };
+		E13765871566E7B300670B54 /* RBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
+		E137658A1566E7B300670B54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RBViewController_iPhone.xib; sourceTree = "<group>"; };
+		E137658D1566E7B300670B54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RBViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E137656D1566E7B300670B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13765751566E7B300670B54 /* UIKit.framework in Frameworks */,
+				E13765771566E7B300670B54 /* Foundation.framework in Frameworks */,
+				E13765791566E7B300670B54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E13765651566E7B200670B54 = {
+			isa = PBXGroup;
+			children = (
+				E137657A1566E7B300670B54 /* ParallaxScrolling */,
+				E13765731566E7B300670B54 /* Frameworks */,
+				E13765711566E7B300670B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E13765711566E7B300670B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13765701566E7B300670B54 /* ParallaxScrolling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13765731566E7B300670B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13765741566E7B300670B54 /* UIKit.framework */,
+				E13765761566E7B300670B54 /* Foundation.framework */,
+				E13765781566E7B300670B54 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E137657A1566E7B300670B54 /* ParallaxScrolling */ = {
+			isa = PBXGroup;
+			children = (
+				E13765831566E7B300670B54 /* RBAppDelegate.h */,
+				E13765841566E7B300670B54 /* RBAppDelegate.m */,
+				E13765861566E7B300670B54 /* RBViewController.h */,
+				E13765871566E7B300670B54 /* RBViewController.m */,
+				E13765891566E7B300670B54 /* RBViewController_iPhone.xib */,
+				E137658C1566E7B300670B54 /* RBViewController_iPad.xib */,
+				E137657B1566E7B300670B54 /* Supporting Files */,
+			);
+			path = ParallaxScrolling;
+			sourceTree = "<group>";
+		};
+		E137657B1566E7B300670B54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E137657C1566E7B300670B54 /* ParallaxScrolling-Info.plist */,
+				E137657D1566E7B300670B54 /* InfoPlist.strings */,
+				E13765801566E7B300670B54 /* main.m */,
+				E13765821566E7B300670B54 /* ParallaxScrolling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E137656F1566E7B300670B54 /* ParallaxScrolling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "ParallaxScrolling" */;
+			buildPhases = (
+				E137656C1566E7B300670B54 /* Sources */,
+				E137656D1566E7B300670B54 /* Frameworks */,
+				E137656E1566E7B300670B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxScrolling;
+			productName = ParallaxScrolling;
+			productReference = E13765701566E7B300670B54 /* ParallaxScrolling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13765671566E7B200670B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "bernert media DIGITAL MEDIA SERVICES";
+			};
+			buildConfigurationList = E137656A1566E7B200670B54 /* Build configuration list for PBXProject "ParallaxScrolling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E13765651566E7B200670B54;
+			productRefGroup = E13765711566E7B300670B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E137656F1566E7B300670B54 /* ParallaxScrolling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E137656E1566E7B300670B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E137657F1566E7B300670B54 /* InfoPlist.strings in Resources */,
+				E137658B1566E7B300670B54 /* RBViewController_iPhone.xib in Resources */,
+				E137658E1566E7B300670B54 /* RBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E137656C1566E7B300670B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13765811566E7B300670B54 /* main.m in Sources */,
+				E13765851566E7B300670B54 /* RBAppDelegate.m in Sources */,
+				E13765881566E7B300670B54 /* RBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E137657D1566E7B300670B54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E137657E1566E7B300670B54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E13765891566E7B300670B54 /* RBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E137658A1566E7B300670B54 /* en */,
+			);
+			name = RBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E137658C1566E7B300670B54 /* RBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E137658D1566E7B300670B54 /* en */,
+			);
+			name = RBViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E137658F1566E7B300670B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E13765901566E7B300670B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13765921566E7B300670B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxScrolling/ParallaxScrolling-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxScrolling/ParallaxScrolling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E13765931566E7B300670B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxScrolling/ParallaxScrolling-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxScrolling/ParallaxScrolling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E137656A1566E7B200670B54 /* Build configuration list for PBXProject "ParallaxScrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E137658F1566E7B300670B54 /* Debug */,
+				E13765901566E7B300670B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "ParallaxScrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13765921566E7B300670B54 /* Debug */,
+				E13765931566E7B300670B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E13765671566E7B200670B54 /* Project object */;
+}
