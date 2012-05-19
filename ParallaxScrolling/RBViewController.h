@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RBViewController : UIViewController
+@interface RBViewController : UIViewController <UIScrollViewDelegate> {
+    
+    UIScrollView *_firstScrollView;
+    UIScrollView *_secondScrollView;
+    UIScrollView *_thirdScrollView;
+    
+}
+
 
 @end
