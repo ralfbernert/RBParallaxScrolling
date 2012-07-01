@@ -24,14 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E13765701566E7B300670B54 /* ParallaxScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13765701566E7B300670B54 /* RBParallaxScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBParallaxScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13765741566E7B300670B54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E13765761566E7B300670B54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E13765781566E7B300670B54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E137657C1566E7B300670B54 /* ParallaxScrolling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxScrolling-Info.plist"; sourceTree = "<group>"; };
+		E137657C1566E7B300670B54 /* RBParallaxScrolling-Info.plist */ = {isa = PBXFileReference; path = "RBParallaxScrolling-Info.plist"; sourceTree = "<group>"; };
 		E137657E1566E7B300670B54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E13765801566E7B300670B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E13765821566E7B300670B54 /* ParallaxScrolling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParallaxScrolling-Prefix.pch"; sourceTree = "<group>"; };
+		E13765821566E7B300670B54 /* RBParallaxScrolling-Prefix.pch */ = {isa = PBXFileReference; path = "RBParallaxScrolling-Prefix.pch"; sourceTree = "<group>"; };
 		E13765831566E7B300670B54 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
 		E13765841566E7B300670B54 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
 		E13765861566E7B300670B54 /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		E13765711566E7B300670B54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E13765701566E7B300670B54 /* ParallaxScrolling.app */,
+				E13765701566E7B300670B54 /* RBParallaxScrolling.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +103,10 @@
 		E137657B1566E7B300670B54 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E137657C1566E7B300670B54 /* ParallaxScrolling-Info.plist */,
+				E137657C1566E7B300670B54 /* RBParallaxScrolling-Info.plist */,
 				E137657D1566E7B300670B54 /* InfoPlist.strings */,
 				E13765801566E7B300670B54 /* main.m */,
-				E13765821566E7B300670B54 /* ParallaxScrolling-Prefix.pch */,
+				E13765821566E7B300670B54 /* RBParallaxScrolling-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E137656F1566E7B300670B54 /* ParallaxScrolling */ = {
+		E137656F1566E7B300670B54 /* RBParallaxScrolling */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "ParallaxScrolling" */;
+			buildConfigurationList = E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "RBParallaxScrolling" */;
 			buildPhases = (
 				E137656C1566E7B300670B54 /* Sources */,
 				E137656D1566E7B300670B54 /* Frameworks */,
@@ -139,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = ParallaxScrolling;
+			name = RBParallaxScrolling;
 			productName = ParallaxScrolling;
-			productReference = E13765701566E7B300670B54 /* ParallaxScrolling.app */;
+			productReference = E13765701566E7B300670B54 /* RBParallaxScrolling.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "bernert media DIGITAL MEDIA SERVICES";
 			};
-			buildConfigurationList = E137656A1566E7B200670B54 /* Build configuration list for PBXProject "ParallaxScrolling" */;
+			buildConfigurationList = E137656A1566E7B200670B54 /* Build configuration list for PBXProject "RBParallaxScrolling" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E137656F1566E7B300670B54 /* ParallaxScrolling */,
+				E137656F1566E7B300670B54 /* RBParallaxScrolling */,
 			);
 		};
 /* End PBXProject section */
@@ -272,9 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParallaxScrolling/ParallaxScrolling-Prefix.pch";
-				INFOPLIST_FILE = "ParallaxScrolling/ParallaxScrolling-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ParallaxScrolling/RBParallaxScrolling-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxScrolling/RBParallaxScrolling-Info.plist";
+				PRODUCT_NAME = RBParallaxScrolling;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -284,9 +284,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParallaxScrolling/ParallaxScrolling-Prefix.pch";
-				INFOPLIST_FILE = "ParallaxScrolling/ParallaxScrolling-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ParallaxScrolling/RBParallaxScrolling-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxScrolling/RBParallaxScrolling-Info.plist";
+				PRODUCT_NAME = RBParallaxScrolling;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E137656A1566E7B200670B54 /* Build configuration list for PBXProject "ParallaxScrolling" */ = {
+		E137656A1566E7B200670B54 /* Build configuration list for PBXProject "RBParallaxScrolling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E137658F1566E7B300670B54 /* Debug */,
@@ -304,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "ParallaxScrolling" */ = {
+		E13765911566E7B300670B54 /* Build configuration list for PBXNativeTarget "RBParallaxScrolling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E13765921566E7B300670B54 /* Debug */,
