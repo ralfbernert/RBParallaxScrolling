@@ -28,10 +28,10 @@
 		E13765741566E7B300670B54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E13765761566E7B300670B54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E13765781566E7B300670B54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E137657C1566E7B300670B54 /* RBParallaxScrolling-Info.plist */ = {isa = PBXFileReference; path = "RBParallaxScrolling-Info.plist"; sourceTree = "<group>"; };
+		E137657C1566E7B300670B54 /* RBParallaxScrolling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBParallaxScrolling-Info.plist"; sourceTree = "<group>"; };
 		E137657E1566E7B300670B54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E13765801566E7B300670B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E13765821566E7B300670B54 /* RBParallaxScrolling-Prefix.pch */ = {isa = PBXFileReference; path = "RBParallaxScrolling-Prefix.pch"; sourceTree = "<group>"; };
+		E13765821566E7B300670B54 /* RBParallaxScrolling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBParallaxScrolling-Prefix.pch"; sourceTree = "<group>"; };
 		E13765831566E7B300670B54 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
 		E13765841566E7B300670B54 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
 		E13765861566E7B300670B54 /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };

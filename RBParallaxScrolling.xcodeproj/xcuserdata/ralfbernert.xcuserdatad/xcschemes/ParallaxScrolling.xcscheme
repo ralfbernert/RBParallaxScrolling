@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E137656F1566E7B300670B54"
-               BuildableName = "ParallaxScrolling.app"
+               BuildableName = "RBParallaxScrolling.app"
                BlueprintName = "RBParallaxScrolling"
                ReferencedContainer = "container:RBParallaxScrolling.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E137656F1566E7B300670B54"
-            BuildableName = "ParallaxScrolling.app"
+            BuildableName = "RBParallaxScrolling.app"
             BlueprintName = "RBParallaxScrolling"
             ReferencedContainer = "container:RBParallaxScrolling.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E137656F1566E7B300670B54"
-            BuildableName = "ParallaxScrolling.app"
+            BuildableName = "RBParallaxScrolling.app"
             BlueprintName = "RBParallaxScrolling"
             ReferencedContainer = "container:RBParallaxScrolling.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E137656F1566E7B300670B54"
-            BuildableName = "ParallaxScrolling.app"
+            BuildableName = "RBParallaxScrolling.app"
             BlueprintName = "RBParallaxScrolling"
             ReferencedContainer = "container:RBParallaxScrolling.xcodeproj">
          </BuildableReference>
