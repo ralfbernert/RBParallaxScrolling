@@ -2,11 +2,11 @@
 
 Ralf Bernert
 
-http://www.bernertmedia.com
+Website: http://www.bernertmedia.com
 
-[@ralfbernert](http://twitter.com/ralfbernert)
+Twitter: [@ralfbernert](http://twitter.com/ralfbernert)
 
-ralfbernert@gmx.de 
+E-Mail: ralfbernert@gmx.de 
 
 
 ## What is it?
